@@ -15,3 +15,9 @@ function calculate() {
     display.value = 'Error';
   }
 }
+
+function multiple(value) {
+  if (display.value !== '') {
+    display.value = parseFloat(display.value) * value;
+  }
+}
